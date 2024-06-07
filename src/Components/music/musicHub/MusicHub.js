@@ -33,7 +33,6 @@ export default function MusicHub() {
             });
             const data = await response.json();
             setAlbums([...albums, data]);
-            setAccordionOpen(false); //The Add Album section is within an Accordion; it will close after submitting a new album
         } catch (error) {
             console.error('Error adding Album:', error);
         }

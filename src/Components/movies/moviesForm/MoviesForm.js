@@ -66,7 +66,7 @@ export default function MoviesForm ({ addMovie }) {
                     min='0'
                     max='10'
                     step='1'
-                    placeholder="Rating (from 1 to 10)"
+                    placeholder="Rating (from 0 to 10)"
                     value={movieRating}
                     onChange={e => setRating(e.target.value)}
                 />

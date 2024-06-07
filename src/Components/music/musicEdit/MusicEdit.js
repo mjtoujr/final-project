@@ -67,7 +67,7 @@ export default function MusicEdit ({ album, editAlbum, cancelEdit }) {
                     min='0'
                     max='10'
                     step='1'
-                    placeholder={albumRating || "Rating (from 1 to 10)"} //Placeholders take on the existing properties; otherwise, default to field names
+                    placeholder={albumRating || "Rating (from 0 to 10)"} //Placeholders take on the existing properties; otherwise, default to field names
                     value={albumRating}
                     onChange={e => setRating(e.target.value)}
                 />

@@ -60,7 +60,7 @@ export default function MusicForm ({ addAlbum }) {
                     min='0'
                     max='10'
                     step='1'
-                    placeholder="Rating (from 1 to 10)"
+                    placeholder="Rating (from 0 to 10)"
                     value={albumRating}
                     onChange={e => setRating(e.target.value)}
                 />

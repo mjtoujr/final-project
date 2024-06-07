@@ -73,7 +73,7 @@ export default function MoviesEdit({movie, editMovie, cancelEdit}) {
                     min='0'
                     max='10'
                     step='1'
-                    placeholder={movieRating || "Rating (from 1 to 10)"} //Placeholders take on the existing properties; otherwise, default to field names
+                    placeholder={movieRating || "Rating (from 0 to 10)"} //Placeholders take on the existing properties; otherwise, default to field names
                     value={movieRating}
                     onChange={e => setRating(e.target.value)}
                 />
